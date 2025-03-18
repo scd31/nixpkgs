@@ -230,6 +230,11 @@ rec {
     libc = "newlib";
   };
 
+  m68k-embedded = {
+    config = "m68k-elf";
+    libc = "newlib";
+  };
+
   x86_64-embedded = {
     config = "x86_64-elf";
     libc = "newlib";
