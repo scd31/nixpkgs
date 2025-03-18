@@ -251,6 +251,7 @@ in
   armhf-embedded = mapTestOnCross systems.examples.armhf-embedded embedded;
   aarch64-embedded = mapTestOnCross systems.examples.aarch64-embedded embedded;
   aarch64be-embedded = mapTestOnCross systems.examples.aarch64be-embedded embedded;
+  m68k-embedded = mapTestOnCross systems.examples.m68k embedded;
   powerpc-embedded = mapTestOnCross systems.examples.ppc-embedded embedded;
   powerpcle-embedded = mapTestOnCross systems.examples.ppcle-embedded embedded;
   i686-embedded = mapTestOnCross systems.examples.i686-embedded embedded;
